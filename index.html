@@ -5,10 +5,176 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>ESM2014-41 - 객체지향프로그래밍 및 실습</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/page.css"/>
 
 </head>
 <body>
-<h1>Hello, world!</h1>
+<main role="main">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-header">
+                <h1>ESM2014-41 <small>객체지향프로그래밍 및 실습</small></h1>
+                <h3 class="text-muted"><span class="text-danger">SKKU</span> 시스템경영공학과</h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="nav nav-pills justify-content-center" id="main_tab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#summary">강좌 개요</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#material">강의 자료</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#homework">과제</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" data-toggle="tab" href="#project" tabindex="-1" aria-disabled="true">프로젝트</a>
+                </li>
+            </ul>
+            <hr>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="summary" role="tabpanel" aria-labelledby="summary-tab">
+                    <h3>
+                        수강 대상 학과
+                    </h3>
+                    <p>공과대학 시스템경영공학과</p>
+                    <h3>
+                        강좌 관련 자료
+                    </h3>
+                    <ul>
+                        <li><a href="https://docs.python.org/3/tutorial/index.html">The Python Tutorial(Python3)</a></li>
+                        <li><a href="https://docs.djangoproject.com/ko/2.2/intro/tutorial01/">Django Tutorial</a></li>
+                    </ul>
+                    <h3>
+                        강좌 목표
+                    </h3>
+                    <ul>
+                        <li>Understanding OOP(Object-oriented Programming) core concepts</li>
+                        <li>Learning basics of Python</li>
+                    </ul>
+                    <h3>
+                        평가 요소
+                    </h3>
+                    <ul>
+                        <li>출석 : 10%</li>
+                        <li>과제 : 20%%</li>
+                        <li>중간시험 : 30%</li>
+                        <li>기말시험 : 40%</li>
+                        <li class="text-danger">Honor Code : Don't Cheat</li>
+                    </ul>
+                    <h3>강의 계획</h3>
+                    <table class="table">
+                        <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Week #</th>
+                            <th scope="col">수업 내용</th>
+                            <th scope="col">핵심 개념</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Introduction of class / Set up for Python Development Environment</td>
+                            <td>Concepts of Python</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Basics of Python I (Syntax)</td>
+                            <td>Python Syntax</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Basics of Python II (Data Structure)</td>
+                            <td>Python Data Structure</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Basics of Python III (Control Statement)</td>
+                            <td>Python Control Statement</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Core concepts of OOP(Object-oriented Programming)</td>
+                            <td>Concepts of OOP</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>Python implementation of OOP I (Class, Instance, Method)</td>
+                            <td>Class, Instance, Method</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">7</th>
+                            <td>Python implementation of OOP II (Inheritance, Override)</td>
+                            <td>Inheritance, Override</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="text-center text-danger">Mid-term</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">9</th>
+                            <td>Python Module Structure</td>
+                            <td>Python Module</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">10</th>
+                            <td>Introduction to Python web framework(Django)</td>
+                            <td>Concepts of Django</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">11</th>
+                            <td>Project Development Practice I</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">12</th>
+                            <td>Project Development Practice II</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">13</th>
+                            <td>Project Development Practice III</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">14</th>
+                            <td>Project Development Practice IV</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">15</th>
+                            <td>Final Project Presentation</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="text-center text-danger">Final-term</td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                    <h3>Office Hours / Contact Point</h3>
+                    <ul>
+                        <li><a href="mailto:youngilcho@g.skku.edu">youngilcho@g.skku.edu</a></li>
+                        <li>별도의 Office Hour는 없으며, 강의나 과제/프로젝트 관련 문의는 메일을 통해 회신</li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="material" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                <div class="tab-pane fade" id="homework" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                <div class="tab-pane fade" id="project" role="tabpanel" aria-labelledby="contact-tab">...</div>
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+<footer class="footer mt-auto py-3">
+    <div class="container">
+        <span class="text-muted">2019 SKKU IESys <a href="mailto:youngilcho@g.skku.edu">youngilcho@g.skku.edu</a></span>
+    </div>
+</footer>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
